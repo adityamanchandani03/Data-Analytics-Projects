@@ -1,6 +1,6 @@
 # 📊 Supermarket Dashboard – Key Insights Summary
 
-![Preview Of Supermarket Dashboard]()
+![Preview Of Supermarket Dashboard](https://github.com/adityamanchandani03/Data-Analytics-Projects/blob/main/Super%20Market%20Data%20Analysis/DashBoard%20Preview.png)
 
 ---
 
