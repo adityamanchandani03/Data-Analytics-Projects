@@ -1,0 +1,55 @@
+{
+    "name": "Modern Vibrant Retail Theme",
+    "dataColors": [
+        "#2E7D32",
+        "#F9A825",
+        "#D32F2F",
+        "#1565C0",
+        "#00838F",
+        "#6A1B9A",
+        "#FF7043",
+        "#26A69A"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#212121",
+    "tableAccent": "#1565C0",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "titleText": [
+                    {
+                        "fontSize": 14,
+                        "fontFamily": "Calibri",
+                        "color": {
+                            "solid": {
+                                "color": "#263238"
+                            }
+                        },
+                        "fontWeight": "bold"
+                    }
+                ],
+                "labelText": [
+                    {
+                        "fontSize": 11,
+                        "fontFamily": "Calibri",
+                        "color": {
+                            "solid": {
+                                "color": "#424242"
+                            }
+                        }
+                    }
+                ],
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}
