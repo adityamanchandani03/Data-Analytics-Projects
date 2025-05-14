@@ -1,61 +1,54 @@
-# 📊 Supermarket Dashboard – Key Insights Summary
-
-![Preview Of Supermarket Dashboard](https://github.com/adityamanchandani03/Data-Analytics-Projects/blob/main/Super%20Market%20Data%20Analysis/DashBoard%20Preview.png)
-
----
-
-## Revenue Highlights
-
-- Highest revenue from a single product category is around **1.04K**.
-- Lowest revenue is just **10.68**.
-- Total profit stands at **15.38K**.
-
-➡️ Insight: Overall, the store is generating strong profits, but there’s room to improve revenue in low-performing categories.
+✅ **1. Business Problem:**  
+The organization wants to evaluate sales performance, product profitability, customer satisfaction, and operational costs to make informed decisions on pricing, inventory, and customer engagement strategies.
 
 ---
 
-## Revenue by Product Type
+🎯 **2. Dashboard Walkthrough:**  
+**Top KPIs (center top):** Shows Total Revenue (**322.97K**), Total Customers (**1000**), and Total Profit (**15.38K**).
 
-- Food and beverages lead in total revenue.
-- Sports and travel, and electronics are also performing well.
-- Health and beauty have the lowest revenue among the categories.
+**Filter Options:** Enable slicing data by **Gender**, **Customer Type**, and **City**.
 
-➡️ Insight: Consider running promotions or changing strategies for health and beauty to improve revenue.
-
----
-
-## Customer Distribution by Payment Method
-
-- All three payment types (**E-wallet**, **Cash**, **Credit Card**) are nearly equally preferred.
-
-➡️ Insight: Offering diverse payment options is effective—keep supporting all three.
+- **Left Chart:** Revenue Distribution across six product types.  
+- **Center Pie Chart:** Customer Distribution by Payment Method.  
+- **Right Chart:** Production Costs by product type.  
+- **Bottom Left:** Customer Ratings – quality/satisfaction indicator.  
+- **Bottom Center:** Total Profit vs Quantity Sold by product line – combines profitability and volume.
 
 ---
 
-## Rating-Based Customer Distribution Across Product Types
+📊 **3. Chart-wise Detail Overview**
 
-- Most customers give “High” or “Medium” ratings across all product types.
-- “Sports and travel” has the most “Low” ratings (**70**), unlike other categories.
+🔸 **Revenue Distribution by Product Type**  
+- **Insight:** Highest revenue comes from *Food and Beverages*, *Fashion Accessories*, and *Sports & Travel*.  
+- **Why it's necessary:** Identifies which products generate the most revenue — essential for inventory planning and promotions.
 
-➡️ Insight: Investigate customer experience for sports and travel products to improve satisfaction.
+🔸 **Customer Distribution by Payment Method**  
+- **Insight:** *E-wallet (34.5%)*, *Cash (34.4%)*, and *Credit card (31.1%)* usage are nearly equal.  
+- **Why it's necessary:** Ensures infrastructure supports all payment types; reveals fintech adoption level among customers.
+
+🔸 **Total Production Cost by Product Category**  
+- **Insight:** *Fashion Accessories* incur the highest production cost (**10.2K**), followed by *Food & Beverages*.  
+- **Why it's necessary:** Helps in identifying product lines with high cost structures for cost control and margin improvement.
+
+🔸 **Customer Ratings Distribution**  
+- **Insight:** Most customers gave *Medium (508)* and *High (481)* ratings; very few gave *Low (11)*.  
+- **Why it's necessary:** Tracks customer satisfaction — essential for loyalty and retention strategies.
+
+🔸 **Total Profit and Quantity Sold by Product Line**  
+- **Insight:** Despite similar sales volume, *Fashion Accessories* and *Home & Lifestyle* show higher profit margins.  
+- **Why it's necessary:** Highlights profitable categories beyond volume — guides pricing and promotional strategies.
+
+🔸 **Filters (Gender, City, Customer Type)**  
+- **Insight:** Interactive segmentation to analyze trends based on demographics and location.  
+- **Why it's necessary:** Supports targeted marketing and region-specific decisions.
 
 ---
 
-## Customer Ratings Summary
+🧠 **4. Final Business Decisions Based on analysis:**
 
-- Majority of ratings are **Medium (508)** and **High (481)**.
-- Very few **Low** ratings (**11**) overall.
-
-➡️ Insight: Customer satisfaction is generally positive—great sign for customer retention.
-
----
-
-## Demographics Overview (Gender, City, Customer Type)
-
-- Equal gender distribution.
-- All three cities (**Mandalay**, **Naypyitaw**, **Yangon**) show good engagement.
-- Both “Member” and “Normal” customer types are equally active.
-
-➡️ Insight: The customer base is well-distributed; focus can shift to increasing loyalty or boosting activity in any lagging city over time.
-
----
+- Prioritize **high-profit product lines** (e.g., *Fashion Accessories*, *Home & Lifestyle*) for promotion and stock expansion.  
+- Optimize **cost structures** for high-cost but not-so-profitable items (e.g., evaluate sourcing for *Fashion Accessories*).  
+- Continue supporting **multiple payment methods**, but explore incentives for *E-wallet* users to drive digital adoption.  
+- Address **low-rated experiences** to avoid reputation damage despite overall good ratings.  
+- Design **region-specific promotions** using *city* and *customer-type* filters to increase engagement.  
+- **Reassess pricing strategies** where quantity sold is high but profit is low.
